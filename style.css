@@ -1,2 +1,8 @@
 /* Importando icons da biblioteca remixicon */
 @import url("https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css");
+
+/* Importando o reset */
+@import url(./css/reset.css);
+
+/* Importando o estilo da calculadora */
+@import url(./css/calculadora.css);

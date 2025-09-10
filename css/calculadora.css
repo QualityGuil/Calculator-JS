@@ -1,0 +1,53 @@
+/* Fundo do site */
+body {
+    background-image: linear-gradient(360deg, rgb(32, 32, 194), black);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Calculadora */
+.calculadora {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+input {
+    width: 260px;
+    margin: auto;
+    padding: 15px;
+    font-size: 48px;
+}
+
+.calculadora .teclado {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: auto;
+}
+
+.botao, .limpar, .apagar, .calcular {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 4px;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.botao:hover, .botao:hover, .limpar:hover, .apagar:hover, .calcular:hover {
+    background-color: black;
+}
