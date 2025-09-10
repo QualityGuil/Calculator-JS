@@ -38,7 +38,7 @@ input {
     margin: auto;
 }
 
-.botao {
+.botao, .limpar, .apagar, .calcular {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -48,6 +48,6 @@ input {
     cursor: pointer;
 }
 
-.botao:hover {
+.botao:hover, .botao:hover, .limpar:hover, .apagar:hover, .calcular:hover {
     background-color: black;
 }
